@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: larger;
+    
+    background-image: url(./img/fundo.png);
+    background-repeat: no-repeat;
+
+    background-size: 100% 1300px;
+
+    color: azure;
+}
+
+header{
+    color: azure;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+
+    font-family: "Oswald", sans-serif;
+}
+
+.header-link{
+    display: flex;
+
+    gap: 10px;
+
+    justify-content: center;
+
+    font-family: "Oswald", sans-serif;
+}
+.link1, .link2, .link3, .link4, .link5, .link6, .link7{
+    color: azure;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.fundo-texto{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-around;
+
+    border: none;
+    border-radius: 5px;
+
+    width: 1300px;
+    height: 700px;
+
+    margin-top: 5%;
+
+
+}
+.texto{
+    
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+
+    color: azure;
+
+    font-family: "Roboto Mono", monospace;
+}
+.titulo-texto{
+
+
+    font-size: 60px;
+}
+.subtitulo-texto{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-size: 35px;
+}
+.links{
+    display: flex;
+
+    gap: 100px;
+
+    flex-direction: row;
+    justify-content: center;
+}
+.cep, .dolar, .clima{
+    display: flex;
+    background-color: grey;
+
+    width: 150px;
+    height: 380px;
+
+    flex-direction: row;
+    justify-content: center;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-size: larger;
+
+    background-image: url(./img/fundo.png);
+    background-repeat: no-repeat;
+
+    background-size: 100% 1300px;
+
+    color: azure;
+}
+
+
+.titulo{
+    display: flex;
+    justify-content: center;
+
+    font-family: "Oswald", sans-serif;
+}
+
+.header-link{
+    display: flex;
+
+    gap: 10px;
+
+    justify-content: center;
+
+    font-family: "Oswald", sans-serif;
+}
+.link1, .link2, .link3, .link4, .link5, .link6, .link7{
+    color: azure;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

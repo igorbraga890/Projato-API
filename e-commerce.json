@@ -1,0 +1,17 @@
+[
+    {
+        "imagem1": "<img src='./img/the_elder_Scroll_V.png' width='50px' height='50px'>",
+        "nome1":"The Elder Scrolls V",
+        "preco1":"79.99"
+    },
+    {
+        "imagem2": "<img src='./img/fallou_76.png' width='50px' height='50px'>",
+        "nome2":"Fallout 76",
+        "preco2":"56.90"
+    },
+    {
+        "imagem3": "<img src='./img/doom_dark_age.png' width='50px' height='50px'>",
+        "nome3":"Doom: The Dark Ages",
+        "preco3":"270.90"
+    }
+]
